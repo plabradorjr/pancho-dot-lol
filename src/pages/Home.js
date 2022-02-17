@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './styles.css'
+import './home.css'
 import pic from '../assets/cupcat.png'
 
 
@@ -19,7 +19,7 @@ export default class Home extends Component {
                     <div className='col'>
                         <div className='row'>
                             <button type="button" id="btn-1">
-                                Portfolios
+                                Portfolio
                             </button>
                         </div>
                     </div>
