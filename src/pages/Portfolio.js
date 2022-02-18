@@ -5,6 +5,7 @@ import portfolio2 from '../assets/portfolio2.png'
 import surgiwiki from '../assets/surgiwiki.png'
 import portfolio4 from '../assets/portfolio4.jpg'
 import Navbar from '../components/Navbar'
+import './portfolio.css'
 
 
 export default class Portfolio extends Component {
@@ -13,6 +14,14 @@ export default class Portfolio extends Component {
       <>
       <Navbar />
       <div className='container'>
+        
+          <div className='row justify-content-center'>
+            <div className='col text-center'>
+              <h1 id='hero'>My portfolio projects_ 👀</h1>
+            </div>
+
+          </div>
+
           <div className='row justify-content-center'>
             <Card
                 title="Decentralized Exchange"
