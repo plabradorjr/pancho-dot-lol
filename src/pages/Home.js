@@ -44,11 +44,13 @@ export default class Home extends Component {
             
                 <div className='row justify-content-center' id='recenter'>
                     <div className='col-sm-4'>
-                        <div className='row'>
-                            <button type="button" id="btn-2">
-                                Resume
-                            </button>
-                        </div>
+                        <Link to="/resume">
+                            <div className='row'>
+                                <button type="button" id="btn-2">
+                                    Resume
+                                </button>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
