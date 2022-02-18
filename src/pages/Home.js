@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import './home.css'
 import pic from '../assets/cupcat.png'
+import LinkTreeButton from '../components/LinkTreeButton';
 
 
 export default class Home extends Component {
@@ -13,70 +15,44 @@ export default class Home extends Component {
                         <img src={pic} alt="profile pic" className='rounded-circle' id='cat'/>
                     </div>
                 </div>
-                <div className='row'>
-                    <div className='col'>
-                    </div>
-                    <div className='col'>
+                <div className='row justify-content-center'>
+                
+                    <div className='col-sm-4'>
+                        <Link to="/portfolio">
                         <div className='row'>
                             <button type="button" id="btn-1">
                                 Portfolio
                             </button>
                         </div>
+                        </Link>
                     </div>
-                    <div className='col'>
-                    </div>
+                   
                 </div>
-                <div className='row'>
-                    <div className='col'>
-                    </div>
-                    <div className='col'>
-                        <div className='row'>
-                            <button type="button" id="btn-2">
-                                Github
-                            </button>
-                        </div>
-                    </div>
-                    <div className='col'>
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col'>
-                    </div>
-                    <div className='col'>
-                        <div className='row'>
-                            <button type="button" id="btn-2">
-                                LinkedIn
-                            </button>
-                        </div>
-                    </div>
-                    <div className='col'>
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col'>
-                    </div>
-                    <div className='col'>
-                        <div className='row'>
-                            <button type="button" id="btn-2">
-                                Twitter
-                            </button>
-                        </div>
-                    </div>
-                    <div className='col'>
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col'>
-                    </div>
-                    <div className='col'>
+                <LinkTreeButton
+                    name="Github"
+                    link="https://github.com/plabradorjr"
+                />
+                <LinkTreeButton
+                    name="LinkedIn"
+                    link="https://www.linkedin.com/in/plabrador/"
+                />
+                <LinkTreeButton
+                    name="Twitter"
+                    link="https://twitter.com/0xSer"
+                />
+            
+                
+
+                <div className='row justify-content-center'>
+                   
+                    <div className='col-sm-4'>
                         <div className='row'>
                             <button type="button" id="btn-2">
                                 Resume
                             </button>
                         </div>
                     </div>
-                    <div className='col'>
-                    </div>
+                   
                 </div>
             </div>
         )
