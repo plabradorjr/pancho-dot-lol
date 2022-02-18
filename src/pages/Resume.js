@@ -10,6 +10,7 @@ const Resume = () => {
             <div className='row'>
                 <div className='col no-float text-center'>
                     <iframe src={resume}
+                    title="resume pdf"
                     height="1100px"
                     width="100%"
                     />
