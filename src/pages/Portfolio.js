@@ -4,11 +4,14 @@ import ethereum from '../assets/ethereum.jpg'
 import portfolio2 from '../assets/portfolio2.png'
 import surgiwiki from '../assets/surgiwiki.png'
 import portfolio4 from '../assets/portfolio4.jpg'
+import Navbar from '../components/Navbar'
 
 
 export default class Portfolio extends Component {
   render() {
     return (
+      <>
+      <Navbar />
       <div className='container'>
           <div className='row justify-content-center'>
             <Card
@@ -67,6 +70,7 @@ export default class Portfolio extends Component {
           </div>
            
       </div>
+      </>
     )
   }
 }
