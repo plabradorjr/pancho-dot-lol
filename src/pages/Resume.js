@@ -1,4 +1,5 @@
 import React from 'react'
+import './resume.css'
 import resume from '../assets/panchoLabrador_resume.pdf'
 import Navbar from '../components/Navbar';
 
@@ -6,16 +7,8 @@ const Resume = () => {
     return (
         <>
         <Navbar />
-        <div className='container-fluid'>
-            <div className='row'>
-                <div className='col no-float text-center'>
-                    <iframe src={resume}
-                    title="resume pdf"
-                    height="1100px"
-                    width="100%"
-                    />
-                </div>
-            </div>
+        <div id="iframe-full">
+            <iframe src={resume} width="100%" height="100%" title='resume'/>
         </div>
         </>
     )
