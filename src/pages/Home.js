@@ -26,7 +26,17 @@ export default class Home extends Component {
                         </Link>
                     </div>
                 </div>
-
+                <div className='row justify-content-center' id='recenter'>
+                    <div className='col-sm-4'>
+                        <Link to="/resume">
+                            <div className='row'>
+                                <button type="button" id="btn-2">
+                                    Resume
+                                </button>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
                 <LinkTreeButton
                     name="Github"
                     link="https://github.com/plabradorjr"
@@ -42,17 +52,6 @@ export default class Home extends Component {
                     link="https://twitter.com/0xSer"
                 />
             
-                <div className='row justify-content-center' id='recenter'>
-                    <div className='col-sm-4'>
-                        <Link to="/resume">
-                            <div className='row'>
-                                <button type="button" id="btn-2">
-                                    Resume
-                                </button>
-                            </div>
-                        </Link>
-                    </div>
-                </div>
             </div>
         )
     }
