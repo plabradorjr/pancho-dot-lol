@@ -56,7 +56,7 @@ export default class Portfolio extends Component {
                             image upload hosted by Amazon Web Services.
                             Secured third party login via Twitter."
               stack={"Ruby on Rails, Amazon Web Services, SQL, Bootstrap"}
-              website="https://sample1.pancho.lol/"
+              website="https://test1.dogeis.money/"
               github={"https://github.com/plabradorjr/surgi_app_rails"}
               image={surgiwiki}
               youtube="https://youtu.be/MkMiXls_E7g"
