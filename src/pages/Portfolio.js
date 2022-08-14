@@ -21,7 +21,7 @@ export default class Portfolio extends Component {
 
           <div className="row justify-content">
             <Card
-              title="Decentralized Exchange"
+              title="Decentralized Token Exchange"
               description="A peer-to-peer marketplace where users can trade 
                 cryptocurrencies in a non-custodial manner without the need for 
                 an intermediary to facilitate the transfer and custody of funds.
