@@ -9,6 +9,7 @@ import "./portfolio.css";
 
 export default class Portfolio extends Component {
   render() {
+    console.log("Henlo, wen job? plz hire me 😭");
     return (
       <>
         <Navbar />
