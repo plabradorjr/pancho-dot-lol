@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Card from "../components/Card";
-import ethereum from "../assets/ethereum.jpg";
-import portfolio2 from "../assets/portfolio2.png";
-import surgiwiki from "../assets/surgiwiki.png";
-import portfolio4 from "../assets/portfolio4.jpg";
+// import ethereum from "../assets/ethereum.jpg";
+// import portfolio2 from "../assets/portfolio2.png";
+// import surgiwiki from "../assets/surgiwiki.png";
+// import portfolio4 from "../assets/portfolio4.jpg";
 import Navbar from "../components/Navbar";
 import "./portfolio.css";
 
