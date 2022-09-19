@@ -6,7 +6,7 @@ import Card from "../components/Card";
 // import portfolio4 from "../assets/portfolio4.jpg";
 import Navbar from "../components/Navbar";
 import "./portfolio.css";
-import lilPudgy from "../assets/lilPudgy.png";
+// import lilPudgy from "../assets/lilPudgy.png";
 
 export default class Portfolio extends Component {
   render() {
@@ -15,17 +15,7 @@ export default class Portfolio extends Component {
       <>
         <Navbar />
         <div className="container">
-          <div className="row text-center">
-            {/* <div className="col">
-              <img
-                src={lilPudgy}
-                alt="profile pic"
-                className="rounded-circle mt-4 mb-0"
-                style={{ height: 150 }}
-                id="cat"
-              />
-            </div> */}
-          </div>
+          <div className="row text-center"></div>
           <div className="row justify-content-center">
             <div className="col text-center">
               <h1 id="hero">👋 Hello, here are some of my projects</h1>
