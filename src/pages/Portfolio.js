@@ -16,7 +16,7 @@ export default class Portfolio extends Component {
         <Navbar />
         <div className="container">
           <div className="row text-center">
-            <div className="col">
+            {/* <div className="col">
               <img
                 src={lilPudgy}
                 alt="profile pic"
@@ -24,7 +24,7 @@ export default class Portfolio extends Component {
                 style={{ height: 150 }}
                 id="cat"
               />
-            </div>
+            </div> */}
           </div>
           <div className="row justify-content-center">
             <div className="col text-center">
