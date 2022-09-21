@@ -51,15 +51,15 @@ const Card = ({
   }
 
   return (
-    <div className="col-md-6">
+    <div className="col-md-6 d-flex align-items-stretch">
       <div className="card" id="card-blurr">
         {imageBanner}
-        <div className="card-body">
+        <div className="card-body d-flex flex-column">
           <div className="d-block h5 mt-3">{title}</div>
           <p className="text-sm text-muted">{description}</p>
           <h6>Stack:</h6>
           <p className="text-sm text-muted">{stack}</p>
-          <div className="row mt-4">
+          <div className="row mt-auto">
             <div className="col-sm-4">
               <a
                 href={website}

@@ -17,7 +17,7 @@ export default class Portfolio extends Component {
         <div className="container">
           <div className="row text-center"></div>
           <div className="row justify-content-center">
-            <div className="col text-center">
+            <div className="col text-center mt-5">
               <h1 id="hero">👋 Hello, here are some of my projects</h1>
             </div>
           </div>
@@ -29,9 +29,7 @@ export default class Portfolio extends Component {
                 cryptocurrencies in a non-custodial manner without the need for 
                 an intermediary to facilitate the transfer and custody of funds.
                 Deployed on Kovan and Polygon testnets"
-              stack={
-                "Solidity, Ethers.js, React, Redux, Hardhat, Infura, Bootstrap"
-              }
+              stack="Solidity, Ethers.js, React, Redux, Hardhat, Infura, Bootstrap"
               website="https://dex.pancho.lol"
               github={
                 "https://github.com/plabradorjr/blockchain-developer-bootcampv2"
