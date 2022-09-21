@@ -69,7 +69,7 @@ export default class Portfolio extends Component {
                             Users around the world can purchase t-shirts and
                             all the fullfillments are automated. Credit cards and 
                             major cryptocurrencies are accepted as form of payments."
-              stack={"Wordpress, Stripe, Coinbase, WooCommerce"}
+              stack={"Wordpress, Stripe, WooCommerce"}
               website="https://shill.lol"
               // image={portfolio4}
             />
