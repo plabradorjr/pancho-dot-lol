@@ -50,6 +50,23 @@ const Card = ({
     );
   }
 
+  let websiteButton;
+  if (website) {
+    websiteButton = (
+      <div className="col-sm-4">
+        <a
+          href={website}
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-block btn-sm mb-1"
+          id="btn-gradient"
+        >
+          Live website
+        </a>
+      </div>
+    );
+  }
+
   return (
     <div className="col-md-6 d-flex align-items-stretch">
       <div className="card" id="card-blurr">
@@ -60,17 +77,7 @@ const Card = ({
           <h6>Stack:</h6>
           <p className="text-sm text-muted">{stack}</p>
           <div className="row mt-auto">
-            <div className="col-sm-4">
-              <a
-                href={website}
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-block btn-sm mb-1"
-                id="btn-gradient"
-              >
-                Live website
-              </a>
-            </div>
+            {websiteButton}
             {githubButton}
             {youtubeButton}
           </div>
