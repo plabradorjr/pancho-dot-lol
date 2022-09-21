@@ -59,7 +59,7 @@ export default class Portfolio extends Component {
                             image upload hosted by Amazon Web Services.
                             Provides secured third party login via Twitter."
               stack={"Ruby on Rails, Amazon Web Services, SQL, Bootstrap"}
-              website="https://test1.dogeis.money/"
+              website="https://surgiwiki.pancho.lol/"
               github={"https://github.com/plabradorjr/surgi_app_rails"}
               // image={surgiwiki}
               youtube="https://youtu.be/MkMiXls_E7g"
@@ -76,15 +76,15 @@ export default class Portfolio extends Component {
               // image={portfolio4}
             />
           </div>
-          <div className="row justify-content">
+          <div className="row justify-content-center">
             <Card
-              title="Triangular Arbitrage Bot"
+              title="Uniswap Triangular Arbitrage Bot"
               description="Easy to deploy triangular arbitrage bot for Uniswap Dex on 
               Optimism Layer. Find any three tokens to monitor prices, and execute 
               3 trades within seconds if profit is detected. 
               No deployment of solidity contract needed, all trading is handled 
               via javascript."
-              stack={"Javascript, Ethers.js, Alchemy node"}
+              stack={"Javascript, Ethers.js, Uniswap SDK, Alchemy"}
               github="https://github.com/plabradorjr/wethSnxOpArb"
             ></Card>
           </div>
