@@ -12,28 +12,28 @@ const Navbar = () => {
       <div>
         <Link to="/">
           {" "}
-          <h4 id="nav-text">Pancho Labrador Jr.</h4>{" "}
+          <h4 id="nav-text">Pancho Labrador Jr._</h4>{" "}
         </Link>
         <Link to="/resume">
           {" "}
-          <span id="_nav-link">Resume</span>{" "}
+          <span id="_nav-link">Resume_</span>{" "}
         </Link>
         <a
           href="https://github.com/plabradorjr"
           target="_blank"
           rel="noreferrer"
         >
-          <span id="_nav-link">Github</span>{" "}
+          <span id="_nav-link">Github_</span>{" "}
         </a>
         <a
           href="https://www.linkedin.com/in/plabrador/"
           target="_blank"
           rel="noreferrer"
         >
-          <span id="_nav-link">LinkedIn</span>{" "}
+          <span id="_nav-link">LinkedIn_</span>{" "}
         </a>
         <a href="https://twitter.com/0xSer" target="_blank" rel="noreferrer">
-          <span id="_nav-link">Twitter</span>{" "}
+          <span id="_nav-link">Twitter_</span>{" "}
         </a>
       </div>
     </nav>

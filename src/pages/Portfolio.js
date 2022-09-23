@@ -38,18 +38,15 @@ export default class Portfolio extends Component {
             />
 
             <Card
-              title="Trending Cryptocurrency Currator"
-              description="Users can view trending coins from Coingecko API,
-                            search thousands of cryptocurrencies,
-                            post comments, login via twitter, and interact with
-                            tradingview candle charts."
-              website={"https://app.shill.lol"}
-              github={"https://github.com/plabradorjr/shill_v0.2"}
-              stack="React, Redux, Ruby on Rails, HighCharts, Bootstrap,
-                            API, OAuth gem, Heroku, Netlify"
-              // image={portfolio2}
-              youtube="https://youtu.be/B1-YHROsui8"
-            />
+              title="Uniswap Triangular Arbitrage Bot"
+              description="Easy to deploy triangular arbitrage bot for Uniswap V3 Dex on 
+              Optimism Layer. Find any three tokens to monitor prices, and execute 
+              3 trades within seconds if profit is detected. 
+              No deployment of solidity contract needed, all trading is handled 
+              via javascript."
+              stack={"Javascript, Ethers.js, Uniswap SDK, Alchemy"}
+              github="https://github.com/plabradorjr/wethSnxOpArb"
+            ></Card>
 
             <Card
               title="Content and Photo Management System for Nurses"
@@ -76,15 +73,18 @@ export default class Portfolio extends Component {
           </div>
           <div className="row justify-content-center">
             <Card
-              title="Uniswap Triangular Arbitrage Bot"
-              description="Easy to deploy triangular arbitrage bot for Uniswap Dex on 
-              Optimism Layer. Find any three tokens to monitor prices, and execute 
-              3 trades within seconds if profit is detected. 
-              No deployment of solidity contract needed, all trading is handled 
-              via javascript."
-              stack={"Javascript, Ethers.js, Uniswap SDK, Alchemy"}
-              github="https://github.com/plabradorjr/wethSnxOpArb"
-            ></Card>
+              title="Trending Cryptocurrency Currator"
+              description="Users can view trending coins from Coingecko API,
+                            search thousands of cryptocurrencies,
+                            post comments, login via twitter, and interact with
+                            tradingview candle charts."
+              website={"https://app.shill.lol"}
+              github={"https://github.com/plabradorjr/shill_v0.2"}
+              stack="React, Redux, Ruby on Rails, HighCharts, Bootstrap,
+                            API, OAuth gem, Heroku, Netlify"
+              // image={portfolio2}
+              youtube="https://youtu.be/B1-YHROsui8"
+            />
           </div>
         </div>
       </>
